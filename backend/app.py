@@ -105,8 +105,10 @@ def create_report():
     <div style="page-break-before: always;"></div>
 
     <div class="container">
+        <img src="http://127.0.0.1:5000/static/images/header.png" alt="Top Image">
         <h1>Diagnosis Result</h1>
         <p class="diagnosis">{response}</p>
+        <img src="http://127.0.0.1:5000/static/images/footer.png" alt="Bottom Image">
     </div>
     </body>
 </html>
